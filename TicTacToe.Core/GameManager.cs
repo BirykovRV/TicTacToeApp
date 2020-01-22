@@ -72,7 +72,7 @@ namespace TicTacToe.Core
         /// <summary>
         /// Получить победителя.
         /// </summary>
-        /// <returns> Вернёт название игрока или пустую строку. </returns>
+        /// <returns> Вернёт название игрока или пустую строку. </returns> 
         public string GetWiner()
         {
             var row = winCombination.GetUpperBound(0) + 1;
